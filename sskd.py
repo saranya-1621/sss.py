@@ -1,0 +1,5 @@
+m1=int(input())
+rra=list(map(int,input().split()[:m1]))
+rra.sort()
+leng=int((len(rra))/2)
+print(rra[leng])
